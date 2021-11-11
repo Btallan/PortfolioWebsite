@@ -26,6 +26,10 @@ _Sitemap:_\
 \
 _Screenshots:_\
 ![Index Screenshot](/img/Screenshots/index.PNG)
+![Index Screenshot](/img/Screenshots/blog.PNG)
+![Index Screenshot](/img/Screenshots/about-us.PNG)
+![Index Screenshot](/img/Screenshots/contact-us.PNG)
+
 \
 \
 \
