@@ -24,7 +24,7 @@ The sites feastures include;
 
 
 _Sitemap:_\
-![Sitemap](\img\screenshots\PortfolioWebsite-Sitemap.PNG)
+![Sitemap](/img/Screenshots/PortfolioWebsite-Sitemap.PNG)
 
 
 
