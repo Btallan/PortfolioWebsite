@@ -19,6 +19,13 @@ The sites feastures include;
 \
 \
 \
+_Target Audience:_\
+The target audience of this website include; employers looking to engage a dev and/or IT professional.
+\
+\
+\
+_Tech Stack:_\
+HTML & CSS
 _Sitemap:_\
 ![Sitemap](/img/Screenshots/PortfolioWebsite-Sitemap.PNG)
 \
@@ -30,16 +37,7 @@ _Screenshots:_\
 ![Index Screenshot](/img/Screenshots/about-us.PNG)
 ![Index Screenshot](/img/Screenshots/contact-us.PNG)
 
-\
-\
-\
-_Target Audience:_\
-The target audience of this website include; employers looking to engage a dev and/or IT professional.
-\
-\
-\
-_Tech Stack:_\
-HTML & CSS
+
 
 
 
