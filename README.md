@@ -15,7 +15,6 @@ The purpose of this website is to provide an online portfolio which includes inf
 _Functionality / Features_
 The sites feastures include;
 - Blog posts,
-- 
 \
 \
 \
