@@ -1,13 +1,13 @@
-** URL to published portfolio website**
+**URL to published portfolio website**\
 URL:
 
-** GitHub Repo**
+**GitHub Repo**\
 URL: https://github.com/Btallan/PortfolioWebsite
 
 
-** Description**
+**Description**\
 
-_Purpose_
+_Purpose_\
 The purpose of this website is to provide an online portfolio which includes information about me, my skills and interests, professional knowledge whilst showcasing my work.
 
 _Functionality / Features_
@@ -15,16 +15,16 @@ The sites feastures include;
 - Blog posts,
 - 
 
-_Sitemap_
-![image](/img/screenshot/PortfolioWebsite-Sitemap.PNG)
+_Sitemap_\
+![image](\img\screenshots\PortfolioWebsite-Sitemap.PNG)
 
-_Screenshots_
+_Screenshots_\
 AA
 
-_Target Audience_
+_Target Audience_\
 The target audience of this website include; employers looking to engage a dev and/or IT professional.
 
-_Tech Stack_
+_Tech Stack_\
 HTML & CSS
 
 
