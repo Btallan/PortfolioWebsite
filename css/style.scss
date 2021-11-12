@@ -1,0 +1,572 @@
+// TABLE OF CONTENTS
+// 1. COLOUR PALETTE
+// 2. MIXINS
+// 3. HEADER & TOP NAV ELEMENTS
+// 4. HERO SECTION
+// 5. NAV CARD SECTION
+// 6. FEATURED BLOGS
+// 7. HIGHLIGHTED BLOG
+// 8. FOOTER SECTION
+// 9. MEDIA QUERY
+
+
+
+
+
+//
+// COLOR PALETTE 
+//
+$color1: #e3e7af;
+$color2: #a2a77f;
+$color3: #eff1c5;
+$color4: #035e7b;
+$color5: #002e2c;
+
+
+// div{
+//     border: 2px solid black;
+// }
+
+body{
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+//
+// MIXINS
+//
+@mixin responsive-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@mixin max-size{
+    max-width: 1080px;
+    margin: 0 auto;
+    float: none;
+}
+
+@mixin card-helmet{
+    margin-top: 2rem;
+}
+
+@mixin centre-text{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@mixin headings{
+    h2,h4,h5{
+        color: #e3e7af;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        margin-left: 10px;       
+
+    }
+}
+
+@mixin paragraphs{
+    p, li,ul{
+        margin: 10px;
+        color: white;
+        text-align: justify;
+        font-family: "Roboto", Helvetica, sans-serif;
+    }
+}
+
+
+
+
+//
+// HEADER & TOP NAV ELEMENTS
+//
+header{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $color4;
+    align-items: center;
+    
+    img{
+        width: 10em;
+        padding: 0.5em;
+        margin-left: 20px;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+        
+}
+
+.nav-list{
+    // background-color: white;
+   // box-shadow: 0px 0px 10px grey;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center
+}
+
+.nav-item{
+    list-style: none;
+    margin-right:2rem;
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+
+    &:hover{
+        color: black;
+        transform: scale(1.2);
+    }
+}
+
+
+.headings{
+    @include centre-text();
+
+    h1{
+        color: black;
+        font-family: sans-serif;
+    }
+}
+
+
+
+
+//
+// HERO SECTION
+//
+.hero-container{
+    @include headings();
+
+    height: 45em;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+    background-image: url(/img/hero.jpg);
+
+}
+
+.intro-text{
+    color: #e3e7af;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    padding: 0.5em;
+}
+
+
+
+
+//
+// NAV CARD SECTION
+//
+.nav-cards{
+    @include responsive-container();
+    @include max-size();
+    @include card-helmet();
+    @include headings();
+    @include paragraphs();   
+    justify-content: space-around;
+
+    h4{
+        color: whitesmoke;
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.nav-card{
+    @include responsive-container();
+    padding: 1rem;
+    margin: 1em;
+    max-width: 35ch;    
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $color2;
+
+    border-radius: 0.5em;
+    overflow: hidden;
+
+    transition: transform 500ms ease;
+
+}
+
+.icons{
+    width: 4em;
+    height: 4em;
+    align-items: normal;
+    justify-content: center;
+}
+
+
+
+.nav-card:hover{
+    transform: scale(1.05);
+}
+
+
+//
+//HIGHTLIGHTED BLOG
+//
+.highlight-container{
+    @include responsive-container();
+    @include max-size();
+    @include card-helmet(); 
+
+    justify-content: center;
+
+    ul, li {
+        float: left;
+    }
+
+}
+
+
+.highlight{
+    @include responsive-container();
+    @include max-size();
+    @include headings();
+    @include paragraphs();
+    
+
+    justify-content: space-between;
+    width: 94%;
+    height: 500px;
+    border-radius: 0.5em;
+    overflow: hidden;
+
+}
+
+.highlight-desc{
+    background-color: $color4;
+    width: 28%;
+    min-width: 200px;
+    height: auto;
+}
+
+.highlight-img{
+    width: 72%;
+    height: auto;
+    background-image: url(/img/computer.jpg);
+    background-size: cover;
+}
+
+
+
+// 
+// Blog Page
+// 
+.blog-section{
+    @include responsive-container();
+    @include max-size();
+    @include headings();
+    @include paragraphs();
+    
+}
+
+
+.blog{
+    background-color: grey;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 1em;
+    padding-bottom: 1em;
+    border-radius: 0.5em;;
+
+    .blog-top{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1em;
+        align-items: center;
+    }
+
+    .blog-body{
+        display: inline-flex;
+    }
+
+    img{
+        width: 100%;
+        height: 20em;
+    }
+
+
+    .blog-copy{
+        width: 70%;
+    }
+
+}
+
+
+// 
+// ABOUT US PAGE
+// 
+.about-section{
+    @include responsive-container();
+    @include max-size();
+    @include card-helmet();
+    @include headings();
+    @include paragraphs();   
+    justify-content: space-around;
+}
+
+
+.about-card{
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+    border-radius: 0.5em;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    margin: 1em;
+    
+
+
+
+    &:hover{
+        transform: scale(1.05);
+    }
+
+    .about-content{
+        padding: 1.5rem;
+        background: linear-gradient(
+            hsl(0 0% 0% / 0),
+            hsl(0 0% 0% / 0.3) 22%,
+            hsl(0 0% 0% / 1)
+        );
+        transform: translateY(65%);
+        transition: transform 500ms ease;
+    }
+
+    &:hover .about-content{
+        transform: translateY(0%);
+        transition:  transform 500ms ease;
+    }
+
+
+    &:hover .about-title::after{
+        transform: scaleX(1);
+    }
+
+
+    .about-title{
+        position: relative;
+        width: max-content;
+    }
+    
+    
+    .about-title::after{
+        content: "";
+        position: absolute;
+        height: 4px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: $color2;
+        transform-origin: left;
+    }
+
+}
+
+.about-card1{
+    background-image: url(/img/property.jpg);
+}
+
+.about-card2{
+    background-image: url(/img/law.jpg);
+}
+
+.about-card3{
+    background-image: url(/img/code2.jpg);
+}
+
+
+
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: $color4;
+    padding: 0.5em 1.25em;
+    border-radius: 0.25em;
+}
+
+
+
+
+// 
+// CONTACT US
+// 
+.contact-section{
+    @include responsive-container();
+    @include max-size();
+    @include card-helmet();
+    justify-content: space-around;
+}
+
+
+.contact-card{
+    @include centre-text();
+    height: 35%;
+    width: 35%;
+    min-width: 300px;
+    background-color: $color4;
+    color: white;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+
+
+.contact-card1{
+    background-image: url(/img/code.jpg);
+}
+
+.contact-card2{
+    background-image: url(/img/branches.jpg);
+}
+
+.contact-card3{
+    background-image: url(/img/accessibility.jpg);
+}
+
+
+
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: $color4;
+    padding: 0.5em 1.25em;
+    border-radius: 0.25em;
+}
+
+
+
+
+
+
+
+
+//
+// FOOTER SECTION
+//
+footer{
+    @include responsive-container();
+
+    justify-content: space-around;
+    background-color: $color4;
+    margin-top: 4em;
+
+
+
+    .socials{
+        justify-content: space-between;
+        padding: 1em 0;
+    }
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+    ul{
+        padding: 10px;
+        list-style: none;
+    }
+
+    li{
+        font-size: 1.5em;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        font-family: sans-serif;
+        color: $color3;
+    }
+    a:hover{
+        color: black;
+    }
+}
+
+
+
+
+//
+// MEDIA QUERY
+//
+@media screen and (max-width:767px){
+
+    .hamburger{
+        background-image: url(/img/icons/hamburger.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 1em;
+        width: 50px;
+        height: 50px;
+        
+
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .highlight-desc{
+        width: auto;
+        height: fit-content;
+    }
+    .highlight-img{
+        width: 100%;
+        height: 100%;
+    }
+
+ 
+
+    .blog-top{
+        flex-direction: column;
+    }
+    .blog-body{
+        flex-direction: column;
+    }
+    .blog{
+        .blog-copy{
+            width: 100%;
+        }
+    }
+
+}
