@@ -158,9 +158,20 @@ header{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
 
 
     background-image: url(/img/hero.jpg);
+
+    .hero-banner{
+        background: rgba($color: #000000, $alpha: 0.7);
+        width: fit-content;
+
+        &:hover{
+            background: rgba($color: #000000, $alpha: 1.0);
+        }
+        
+    }
 
 }
 

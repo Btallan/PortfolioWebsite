@@ -61,6 +61,7 @@ header .hamburger {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  align-items: center;
   background-image: url(/img/hero.jpg);
 }
 .hero-container h2, .hero-container h4, .hero-container h5 {
@@ -69,6 +70,13 @@ header .hamburger {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   margin-left: 10px;
+}
+.hero-container .hero-banner {
+  background: rgba(0, 0, 0, 0.7);
+  width: fit-content;
+}
+.hero-container .hero-banner:hover {
+  background: black;
 }
 
 .intro-text {
