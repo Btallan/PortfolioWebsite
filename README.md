@@ -1,5 +1,5 @@
 **URL to published portfolio website**\
-URL:
+URL: https://app.netlify.com/sites/ben-allan/overview
 \
 \
 **GitHub Repo**\
@@ -28,12 +28,14 @@ HTML & CSS
 \
 \
 \
-_Colour Palette:\
+_Colour Palette:_\
 - Colour One: #e3e7af
 - Colour Two: #a2a77f
 - Colour Three: #eff1c5
 - Colour Four: #035e7b
 - Colour Five: #002e2c
+\
+\
 \
 _Sitemap:_\
 ![Sitemap](/img/Screenshots/PortfolioWebsite-Sitemap.PNG)
@@ -49,8 +51,8 @@ _Screenshots:_\
 \
 \
 \
-_Contributions:_\
-<div>Icons made by <a href="https://www.flaticon.com/authors/najmunnahar" title="NajmunNahar">NajmunNahar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+_Contributions:_
+<div>Icons from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 
 

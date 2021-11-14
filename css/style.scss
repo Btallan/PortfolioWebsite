@@ -599,40 +599,86 @@ header{
 //
 footer{
     @include responsive-container();
+    flex-direction: column;
 
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+
     background-color: $color4;
     margin-top: 4em;
+
+    // border: 5px solid red;
+
+    font-family: roboto, sans-serif;
 
 
 
     .socials{
-        justify-content: space-between;
         padding: 1em 0;
+
+        width: 50%;
+
+        // border: 2px solid black;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
     }
+
+
+
+
+
+    .site-links{
+        // border: 2px solid black;
+        font-size: 1.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 50%;
+
+        ul{
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+
+        li{
+            list-style-type: none;
+            width: fit-content;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            
+
+            &:hover{
+                color: $color3;
+                border: 2px $color3 dashed;                
+            }
+        }
+
+ 
+    }
+
+
 
     img{
         width: 50px;
         height: 50px;
+
+        &:hover{
+            transform: scale(1.3);
+            border: 2px $color3 dashed;                
+        }
     }
 
-    ul{
-        padding: 10px;
-        list-style: none;
-    }
 
-    li{
-        font-size: 1.5em;
-        color: white;
-    }
-    a{
-        text-decoration: none;
-        font-family: sans-serif;
-        color: $color3;
-    }
-    a:hover{
-        color: black;
-    }
 }
 
 
