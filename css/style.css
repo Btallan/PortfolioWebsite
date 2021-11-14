@@ -54,6 +54,50 @@ header .hamburger {
   text-align: center;
 }
 
+.nav-toggle-label {
+  margin-right: 1em;
+}
+.nav-toggle-label img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.hamburger .hamburger-options {
+  display: none;
+  background-color: #035e7b;
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+.hamburger .hamburger-options ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.hamburger .hamburger-options li {
+  text-decoration: none;
+}
+.hamburger .hamburger-options a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.hamburger .hamburger-options a:hover {
+  color: black;
+  transform: scale(1.2);
+}
+
+.nav-toggle:checked ~ nav {
+  display: block;
+}
+
 .hero-container {
   height: 45em;
   background-size: cover;
@@ -489,6 +533,11 @@ footer img:hover {
   border: 2px #eff1c5 dashed;
 }
 
+@media screen and (min-width: 767px) {
+  .nav-toggle-label {
+    display: none;
+  }
+}
 @media screen and (max-width: 767px) {
   .nav-list {
     display: none;
