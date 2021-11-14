@@ -384,6 +384,13 @@ header .hamburger {
   float: none;
   margin-top: 2rem;
   justify-content: space-around;
+  font-family: roboto, sans-serif;
+}
+.contact-section a {
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  text-decoration: none;
 }
 
 .contact-card {
@@ -393,11 +400,11 @@ header .hamburger {
   height: 35%;
   width: 35%;
   min-width: 300px;
-  background-color: #035e7b;
-  color: white;
   margin: 1em;
   padding: 1em;
   border-radius: 0.5em;
+  color: black;
+  border: 2px solid black;
 }
 .contact-card img {
   width: 100px;
