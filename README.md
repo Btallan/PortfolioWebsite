@@ -51,7 +51,7 @@ _Screenshots:_\
 ![Index Screenshot](/img/Screenshots/contact-us.PNG)
 ![Index Screenshot](/img/Screenshots/index_mobile.PNG)
 ![Index Screenshot](/img/Screenshots/blog_mobile.PNG)
-![Index Screenshot](/img/Screenshots/about-me_mobile.PNG)
+![Index Screenshot](/img/Screenshots/about-me-mobile.PNG)
 ![Index Screenshot](/img/Screenshots/contact_mobile.PNG)
 \
 \
