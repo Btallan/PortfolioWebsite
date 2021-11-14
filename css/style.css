@@ -88,53 +88,37 @@ header .hamburger {
   float: none;
   margin-top: 2rem;
   justify-content: space-around;
-}
-.nav-cards h2, .nav-cards h4, .nav-cards h5 {
-  color: #e3e7af;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
-  margin-left: 10px;
-}
-.nav-cards p, .nav-cards li, .nav-cards ul {
-  margin: 10px;
-  color: white;
-  text-align: justify;
-  font-family: "Roboto", Helvetica, sans-serif;
-}
-.nav-cards h4 {
-  color: whitesmoke;
+  font-family: roboto, sans-serif;
 }
 .nav-cards a {
+  display: block;
+  height: fit-content;
+  width: fit-content;
   text-decoration: none;
 }
 
 .nav-card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 1rem;
-  margin: 1em;
-  max-width: 35ch;
-  height: auto;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-color: #a2a77f;
+  text-align: center;
+  height: 30%;
+  width: 30%;
+  min-width: 300px;
+  margin: 1em;
+  padding: 1em;
   border-radius: 0.5em;
-  overflow: hidden;
+  color: black;
+  border: 2px solid black;
   transition: transform 500ms ease;
 }
-
-.icons {
-  width: 4em;
-  height: 4em;
-  align-items: normal;
-  justify-content: center;
+.nav-card img {
+  width: 100px;
+  height: 100px;
 }
-
 .nav-card:hover {
-  transform: scale(1.05);
+  background-color: #eff1c5;
+  transform: scale(1.1);
+  box-shadow: 2px 4px;
 }
 
 .highlight-container {
@@ -374,6 +358,10 @@ header .hamburger {
   padding: 0.4em;
   margin: 1em;
 }
+.skill-box:hover {
+  background-color: #eff1c5;
+  box-shadow: 2px 4px;
+}
 
 .contact-section {
   display: flex;
@@ -405,6 +393,7 @@ header .hamburger {
   border-radius: 0.5em;
   color: black;
   border: 2px solid black;
+  transition: transform 500ms ease;
 }
 .contact-card img {
   width: 100px;
@@ -413,6 +402,7 @@ header .hamburger {
 .contact-card:hover {
   background-color: #eff1c5;
   transform: scale(1.1);
+  box-shadow: 2px 4px;
 }
 
 .contact-card1 {

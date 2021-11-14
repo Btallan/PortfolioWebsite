@@ -182,50 +182,68 @@ header{
     @include responsive-container();
     @include max-size();
     @include card-helmet();
-    @include headings();
-    @include paragraphs();   
     justify-content: space-around;
 
-    h4{
-        color: whitesmoke;
-    }
+    font-family: roboto, sans-serif;
+
+    // border: 2px solid black;
 
     a{
+        display: block;
+        height: fit-content;
+        width: fit-content;
         text-decoration: none;
     }
+
 }
 
 .nav-card{
-    @include responsive-container();
-    padding: 1rem;
-    margin: 1em;
-    max-width: 35ch;    
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include centre-text();
+    // min-width: 300px;
 
-    background-color: $color2;
+    height: 30%;
+    width: 30%;
+    min-width: 300px;
+
+    margin: 1em;
+    padding: 1em;
 
     border-radius: 0.5em;
-    overflow: hidden;
+    
+    color: black;
+    border: 2px solid black;
+
+    // overflow: hidden;
 
     transition: transform 500ms ease;
+    
+    img{
+        width: 100px;
+        height: 100px;
+    }
 
+    &:hover{
+        background-color: $color3;
+        transform: scale(1.1);
+        box-shadow: 2px 4px;
+    }
 }
 
-.icons{
-    width: 4em;
-    height: 4em;
-    align-items: normal;
-    justify-content: center;
-}
+// .icons{
+//     width: 4em;
+//     height: 4em;
+//     align-items: normal;
+//     justify-content: center;
+// }
 
 
 
-.nav-card:hover{
-    transform: scale(1.05);
-}
+
+
+
+
+
+
 
 
 //
@@ -348,6 +366,7 @@ header{
 
     &:hover{
         transform: scale(1.05);
+        
     }
 
     .about-content{
@@ -364,6 +383,7 @@ header{
     &:hover .about-content{
         transform: translateY(0%);
         transition:  transform 500ms ease;
+        
     }
 
 
@@ -455,6 +475,8 @@ header{
     flex-wrap: wrap;
     justify-content: flex-start;
 
+    
+
     .skill-tag{   
     
         border: 2px black solid;
@@ -479,6 +501,11 @@ header{
     margin: 1em;
 
     // background-color: $color3;
+
+    &:hover{
+        background-color: $color3;
+        box-shadow: 2px 4px;
+    }
 }
 
 
@@ -518,6 +545,9 @@ header{
     color: black;
     border: 2px solid black;
 
+    transition: transform 500ms ease;
+
+
     img{
         width: 100px;
         height: 100px;
@@ -526,6 +556,7 @@ header{
     &:hover{
         background-color: $color3;
         transform: scale(1.1);
+        box-shadow: 2px 4px;
     }
 }
 
