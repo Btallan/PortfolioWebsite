@@ -6,15 +6,17 @@ URL: https://app.netlify.com/sites/ben-allan/overview
 URL: https://github.com/Btallan/PortfolioWebsite
 \
 \
-**Description**
+**Description**\
 _Purpose:_\
 The purpose of this website is to provide an online portfolio which includes information about me, my skills and interests, professional knowledge whilst showcasing my work.
 \
 \
 \
 _Functionality / Features_
-The sites feastures include;
+The sites include;
 - Blog posts,
+- Skills & Interests,
+- Contact Details,
 \
 \
 \
@@ -47,6 +49,10 @@ _Screenshots:_\
 ![Index Screenshot](/img/Screenshots/blog.PNG)
 ![Index Screenshot](/img/Screenshots/about-us.PNG)
 ![Index Screenshot](/img/Screenshots/contact-us.PNG)
+![Index Screenshot](/img/Screenshots/index_mobile.PNG)
+![Index Screenshot](/img/Screenshots/blog_mobile.PNG)
+![Index Screenshot](/img/Screenshots/about-us_mobile.PNG)
+![Index Screenshot](/img/Screenshots/contact-us_mobile.PNG)
 \
 \
 \
