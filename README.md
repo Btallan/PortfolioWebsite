@@ -25,6 +25,16 @@ The target audience of this website include; employers looking to engage a dev a
 \
 _Tech Stack:_\
 HTML & CSS
+\
+\
+\
+_Colour Palette:\
+- Colour One: #e3e7af
+- Colour Two: #a2a77f
+- Colour Three: #eff1c5
+- Colour Four: #035e7b
+- Colour Five: #002e2c
+\
 _Sitemap:_\
 ![Sitemap](/img/Screenshots/PortfolioWebsite-Sitemap.PNG)
 \
