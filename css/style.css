@@ -410,6 +410,10 @@ header .hamburger {
   width: 100px;
   height: 100px;
 }
+.contact-card:hover {
+  background-color: #eff1c5;
+  transform: scale(1.1);
+}
 
 .contact-card1 {
   background-image: url(/img/code.jpg);
