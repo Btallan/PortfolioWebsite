@@ -45,7 +45,12 @@ _Screenshots:_\
 ![Index Screenshot](/img/Screenshots/blog.PNG)
 ![Index Screenshot](/img/Screenshots/about-us.PNG)
 ![Index Screenshot](/img/Screenshots/contact-us.PNG)
-
+\
+\
+\
+\
+_Contributions:_\
+<div>Icons made by <a href="https://www.flaticon.com/authors/najmunnahar" title="NajmunNahar">NajmunNahar</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 
 
