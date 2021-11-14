@@ -138,6 +138,7 @@ header .hamburger {
   float: none;
   margin-top: 2rem;
   justify-content: center;
+  padding: 0.5em;
 }
 .highlight-container ul, .highlight-container li {
   float: left;
@@ -150,11 +151,11 @@ header .hamburger {
   max-width: 1080px;
   margin: 0 auto;
   float: none;
-  justify-content: space-between;
-  width: 94%;
-  height: 500px;
+  flex-direction: row;
+  flex-wrap: wrap;
   border-radius: 0.5em;
-  overflow: hidden;
+  justify-content: space-between;
+  background-color: #035e7b;
 }
 .highlight h2, .highlight h4, .highlight h5 {
   color: #e3e7af;
@@ -169,19 +170,12 @@ header .hamburger {
   text-align: justify;
   font-family: "Roboto", Helvetica, sans-serif;
 }
-
-.highlight-desc {
-  background-color: #035e7b;
-  width: 28%;
-  min-width: 200px;
+.highlight img {
+  width: 100%;
   height: auto;
 }
-
-.highlight-img {
-  width: 72%;
-  height: auto;
-  background-image: url(/img/computer.jpg);
-  background-size: cover;
+.highlight .highlight-desc {
+  width: 40%;
 }
 
 .blog-section {
@@ -500,14 +494,8 @@ footer img:hover {
     display: none;
   }
 
-  .highlight-desc {
-    width: auto;
-    height: fit-content;
-  }
-
-  .highlight-img {
+  .highlight .highlight-desc {
     width: 100%;
-    height: 100%;
   }
 
   .blog {
