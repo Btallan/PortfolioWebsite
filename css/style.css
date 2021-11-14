@@ -183,23 +183,12 @@ header .hamburger {
   max-width: 1080px;
   margin: 0 auto;
   float: none;
-}
-.blog-section h2, .blog-section h4, .blog-section h5 {
-  color: #e3e7af;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
-  margin-left: 10px;
-}
-.blog-section p, .blog-section li, .blog-section ul {
-  margin: 10px;
-  color: white;
-  text-align: justify;
-  font-family: "Roboto", Helvetica, sans-serif;
+  font-family: roboto, sans-serif;
 }
 
 .blog {
-  background-color: grey;
+  background-color: #a2a77f;
+  box-shadow: 2px 4px;
   flex-direction: column;
   justify-content: center;
   margin: 1em;
@@ -208,6 +197,7 @@ header .hamburger {
 }
 .blog .blog-top {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 1em;
   align-items: center;
@@ -215,12 +205,22 @@ header .hamburger {
 .blog .blog-body {
   display: inline-flex;
 }
-.blog img {
-  width: 100%;
-  height: 20em;
-}
 .blog .blog-copy {
-  width: 70%;
+  margin: 1em;
+}
+.blog .btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog button {
+  background-color: #a2a77f;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+.blog button:hover {
+  background-color: #035e7b;
+  color: white;
 }
 
 .about-section {
