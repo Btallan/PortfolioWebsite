@@ -1,0 +1,221 @@
+commit 2d37fe7ab67c16267464ad550484caaa87a3ee58
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 22:23:20 2021 +1000
+
+    updated readme#3
+
+commit f7c29550a4fdb3fddcb17b977da70087dc3500ff
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 22:22:08 2021 +1000
+
+    updated readme#2
+
+commit ce32d4f40e0fa0c149da236dcff06d79f808731a
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 22:21:12 2021 +1000
+
+    updated readme
+
+commit 1d135111fe34a4fcbc023b4885513b5f55f5e8fd
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 22:06:59 2021 +1000
+
+    added hamburger to all pages
+
+commit 4ea8f10b7d90d90a467e4b54f047ce7d0f36418d
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 22:01:04 2021 +1000
+
+    added hamburger menu
+
+commit ff48e4b8c22da1185af1f77ed0673be1d7f4cf07
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 21:36:47 2021 +1000
+
+    changed responsivness of the wfh setup & added index link to the logo
+
+commit 86513d459563b7690a1ea1372278efacfe9db5e8
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 21:19:35 2021 +1000
+
+    updated responsiveness of the blog pages & divs
+
+commit c221986cfb73961d0e7aca50ac5fdea1092074c4
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 20:55:15 2021 +1000
+
+    added hero image banner for contrast, added index link to footer links
+
+commit 60ea3d0b3a549da1386e3f51f9565007d223eb3a
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 20:45:55 2021 +1000
+
+    changed blog page styling: added: drop shadow, headings & time, optimised the images
+
+commit 8b8edf118f815924c676c22d2a1fee11acb3fdd7
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 19:12:33 2021 +1000
+
+    fixed footer
+
+commit 22ec62bf3ef061be31ee55a498786edf7b820bf0
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 18:48:39 2021 +1000
+
+    updated index page nav cards
+
+commit 534a7fb15c07d24a4dd56863d5bf82606b2e68ef
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 17:30:44 2021 +1000
+
+    added hover effects to contact page
+
+commit eec9beddb2e7978814b3dbcc78d4ae77261893ae
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 17:25:39 2021 +1000
+
+    updated contact us page w/ new icons & div clickable
+
+commit 5262cfe4526b335a8fe3ff410c8966989a371178
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 17:10:38 2021 +1000
+
+    added skills & interest section to about us
+
+commit 563a54fbf83e21f3dc4566238b79d21edcfbc90d
+Author: Btallan <btallan@bigpond.com>
+Date:   Sun Nov 14 15:59:51 2021 +1000
+
+    added colur palette in README
+
+commit e7217d9f83c7b7f3d548a44a83563676ad8e27c0
+Author: Btallan <btallan@bigpond.com>
+Date:   Fri Nov 12 15:41:36 2021 +1000
+
+    push&pull test: removed text: push from laptop
+
+commit e985dbfa4853d174d04bbffe16aceda46aaa0da0
+Author: Btallan <btallan@bigpond.com>
+Date:   Fri Nov 12 15:40:31 2021 +1000
+
+    testing push & pull: push from main desktop
+
+commit 62bdce01f75426bc6d3739edce6afcd5349c5c63
+Author: Btallan <btallan@bigpond.com>
+Date:   Fri Nov 12 15:38:35 2021 +1000
+
+    removed scribble test text
+
+commit 2b0754869fd9fe83d11321a5ea95193281900c8b
+Author: Btallan <btallan@bigpond.com>
+Date:   Fri Nov 12 15:35:55 2021 +1000
+
+    re-added css folder
+
+commit 3d6bf2cda292a073169958f9e83295d67e34b193
+Author: Btallan <btallan@bigpond.com>
+Date:   Fri Nov 12 15:34:48 2021 +1000
+
+    removed css folder
+
+commit 321caeef0e298371dfdd455f7a854d26177d7581
+Author: Btallan <btallan@bigpond.com>
+Date:   Fri Nov 12 15:33:39 2021 +1000
+
+    local css folder #7
+
+commit ae21ec8a36201ba2f64a03df72a7c8b1cfa607e8
+Author: Btallan <btallan@bigpond.com>
+Date:   Fri Nov 12 14:55:30 2021 +1000
+
+    uploading css#5
+
+commit d337377117c8be5c0e4ff86e39ab6706b2a44fc0
+Author: Btallan <btallan@bigpond.com>
+Date:   Fri Nov 12 14:54:50 2021 +1000
+
+    uploading css#4
+
+commit 58d621486f10f81b15922276fc3d40381eee9515
+Author: Btallan <btallan@bigpond.com>
+Date:   Fri Nov 12 14:46:25 2021 +1000
+
+    uploading css
+
+commit e17afdc4a6c34718882c931f7d5f8331d4c88663
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 22:05:32 2021 +1000
+
+    adding css submodule#3
+
+commit bcc0d3951fecdfd5b36c5792fb866f1cbb411448
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 22:02:34 2021 +1000
+
+    adding css submodule#2
+
+commit 4daa40023ca58d0dd39d6ed41a048047aa15ac19
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 21:55:19 2021 +1000
+
+    added css submodule
+
+commit 7d030ca556dbe1e1940f56d0e0e94defce852e47
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 21:52:20 2021 +1000
+
+    changed font formatting
+
+commit 499af9ecf4a1c7259632853d45b99355c74321e9
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 19:28:25 2021 +1000
+
+    Added remaining screenshots
+
+commit a56bc695b1a0113d3ce3e4f1acf38d32b34c94be
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 19:26:25 2021 +1000
+
+    Added Index Screenshot
+
+commit 36817e4f82da2189fa05426eef94c39119aff4d2
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 19:22:24 2021 +1000
+
+    Added Sitemap to the Readme file #5
+
+commit 20f467aaf6574b1dc06b326da48fced09700faff
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 19:20:59 2021 +1000
+
+    Added Sitemap to the Readme file #4
+
+commit bfc8b16345d06e92c2bbab2d6e6f89ef7f769e91
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 19:19:47 2021 +1000
+
+    Added Sitemap to the Readme file #3
+
+commit fc7dac402e293a5af618eb3a4467f103ed916153
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 19:17:48 2021 +1000
+
+    Added Sitemap to the Readme file #2
+
+commit 7e181c5fbc9a51cfb1415bf046aa8e0d47a85554
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 19:13:58 2021 +1000
+
+    Added Sitemap to the Readme file
+
+commit 0940ec262506cbe0ddaa398167135f53033c796e
+Author: Btallan <btallan@bigpond.com>
+Date:   Thu Nov 11 17:47:09 2021 +1000
+
+    presentation version
+
+commit 456e86131447975e5ebd6402bb7a36e94e9220ec
+Author: Btallan <btallan@bigpond.com>
+Date:   Sat Nov 6 19:26:52 2021 +1000
+
+    initial commit
