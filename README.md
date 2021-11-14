@@ -30,7 +30,7 @@ HTML & CSS
 \
 \
 \
-_Colour Palette:_\
+_Colour Palette:_
 - Colour One: #e3e7af
 - Colour Two: #a2a77f
 - Colour Three: #eff1c5
@@ -51,8 +51,8 @@ _Screenshots:_\
 ![Index Screenshot](/img/Screenshots/contact-us.PNG)
 ![Index Screenshot](/img/Screenshots/index_mobile.PNG)
 ![Index Screenshot](/img/Screenshots/blog_mobile.PNG)
-![Index Screenshot](/img/Screenshots/about-us_mobile.PNG)
-![Index Screenshot](/img/Screenshots/contact-us_mobile.PNG)
+![Index Screenshot](/img/Screenshots/about-me_mobile.PNG)
+![Index Screenshot](/img/Screenshots/contact_mobile.PNG)
 \
 \
 \
