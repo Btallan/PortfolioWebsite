@@ -106,7 +106,7 @@ header .hamburger {
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-image: url(/img/hero.jpg);
+  background-image: url(/src/img/hero.jpg);
 }
 .hero-container h2, .hero-container h4, .hero-container h5 {
   color: #e3e7af;
@@ -342,15 +342,15 @@ header .hamburger {
 }
 
 .about-card1 {
-  background-image: url(/img/property.jpg);
+  background-image: url(/src/img/property.jpg);
 }
 
 .about-card2 {
-  background-image: url(/img/law.jpg);
+  background-image: url(/src/img/law.jpg);
 }
 
 .about-card3 {
-  background-image: url(/img/code2.jpg);
+  background-image: url(/src/img/code.jpg);
 }
 
 .button {
@@ -460,15 +460,15 @@ header .hamburger {
 }
 
 .contact-card1 {
-  background-image: url(/img/code.jpg);
+  background-image: url(/src/img/code.jpg);
 }
 
 .contact-card2 {
-  background-image: url(/img/branches.jpg);
+  background-image: url(/src/img/branches.jpg);
 }
 
 .contact-card3 {
-  background-image: url(/img/accessibility.jpg);
+  background-image: url(/src/img/accessibility.jpg);
 }
 
 .button {

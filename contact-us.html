@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Ben Allan's Portfolio Website</title>
+    <link rel="stylesheet" href="/src/css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="/img/logo2.png" alt="">
+            <img src="/src/img/logo2.png" alt="" onclick="location.href='index.html';" style="cursor: pointer;">
         </div>
         <nav>
             <ul class="nav-list">
@@ -33,7 +33,31 @@
                 </li>
             </ul>
         </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <img src="/src/img/icons/hamburger3.png" alt="">
+        </label>
+
     </header>
+    <div class="hamburger">
+        <input type="checkbox" class="nav-toggle" id="nav-toggle">
+        <nav class="hamburger-options">
+            <ul class="">
+                <li class="">
+                    <a href="index.html" class="nav-btn">Home</a>
+                </li>
+                <li class="">
+                    <a href="blog.html" class="nav-btn">Blog</a>
+                </li>
+                <li class="">
+                    <a href="about-us.html" class="nav-btn">About Us</a>
+                </li>
+                <li class="">
+                    <a href="contact-us.html" class="nav-btn">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
 
     <div class="headings">
         <h1>Lets connect!</h1>
@@ -48,32 +72,32 @@
 
         <a href="https://www.instagram.com/iambenallan/" target="_blank">
             <div class="contact-card contact-linkedin">
-                <img src="/img/logos/instagram.png" alt="">
+                <img src="/src/img/logos/instagram.png" alt="">
                 <h4>Instagram</h4>
             </div>
         </a>
 
         <a href="https://www.linkedin.com/in/thebenallan/" target="_blank">
             <div class="contact-card contact-linkedin">
-                <img src="/img/logos/linkedin.png" alt="">
+                <img src="/src/img/logos/linkedin.png" alt="">
                 <h4>LinkedIn</h4>
             </div>
         </a>
         <a href="https://github.com/Btallan" target="_blank">
             <div class="contact-card contact-linkedin">
-                <img src="/img/logos/github (2).png" alt="">
+                <img src="/src/img/logos/github (2).png" alt="">
                 <h4>GitHub</h4>
             </div>
         </a>
         <a href="mailto:btallan@bigpond.com" target="_blank">
             <div class="contact-card contact-linkedin">
-                <img src="/img/icons/email.png" alt="">
+                <img src="/src/img/icons/email.png" alt="">
                 <h4>Email</h4>
             </div>
         </a>
         <a href="/docs/BTAResume2021 v2 27.10.21.pdf" target="_blank">
             <div class="contact-card contact-linkedin">
-                <img src="/img/icons/resume.png" alt="">
+                <img src="/src/img/icons/resume.png" alt="">
                 <h4>Resume</h4>
             </div>
         </a>
@@ -103,22 +127,23 @@
 
 
 
-
     <footer>
 
         <div class="socials">
-            <a href="#"><img src="/img/logos/instagram.png" alt=""></a>
-            <a href="#"><img src="/img/logos/linkedin.png" alt=""></a>
-            <a href="#"><img src="/img/logos/github (2).png" alt=""></a>
+            <a href="https://www.instagram.com/iambenallan/" target="_blank"><img src="/src/img/logos/instagram.png"
+                    alt=""></a>
+            <a href="https://www.linkedin.com/in/thebenallan/" target="_blank"><img src="/src/img/logos/linkedin.png"
+                    alt=""></a>
+            <a href="https://github.com/Btallan" target="_blank"><img src="/src/img/logos/github (2).png" alt=""></a>
         </div>
 
 
         <div class="site-links">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/about-us.html">About Us</a></li>
-                <li><a href="/contact-us.html">Contact Us</a></li>
+                <li><a href="/src/index.html">Home</a></li>
+                <li><a href="/src/blog.html">Blog</a></li>
+                <li><a href="/src/about-us.html">About Us</a></li>
+                <li><a href="/src/contact-us.html">Contact Us</a></li>
             </ul>
         </div>
 
